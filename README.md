@@ -31,12 +31,12 @@ def chai(n):
   3.2. Create another file chai.py and import this function. <br>
   ````PYTHON
 import hello_chai
-
+hello_chai.chai(6)
+````
   3.3. **Something Interesting Happens here !!**
   ![image](https://github.com/Mangeshgp14/Chai-And-Python/assets/107695842/02148ab6-3847-4bb6-a009-654553df0fc9)
 
-hello_chai.chai(6)
-````
+
 
 
 
