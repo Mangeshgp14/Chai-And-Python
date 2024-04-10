@@ -13,9 +13,27 @@
 
 <h3> 2. Writing our first program</h3>
 <p>
-  1.1. Create a folder on your local PC. <br>
-  1.2. Open that folder in VS code. Create a file with a .py extension in it. <br>
-  1.3. Write the following code:<br>
+  2.1. Create a folder on your local PC. <br>
+  2.2. Open that folder in VS code. Create a file with a .py extension in it. <br>
+  2.3. Write the following code:<br>
   >> print("chai aur python")<br>
-  1.4. To run this file, open the terminal in VS code, go to the location where the python file is placed, and write command: "python filename.py"
+  2.4. To run this file, open the terminal in VS code, go to the location where the python file is placed, and write command: "python filename.py"
+</p>
+
+<h3> 3. Importing one file into another</h3>
+<p>
+  3.1. Create one file named hello_chai.py. Define a function in it.<br>
+
+  ````PYTHON
+def chai(n):
+    print(n)
+````
+  3.2. Create another file chai.py and import this function. <br>
+  ````PYTHON
+import hello_chai
+hello_chai.chai(6)
+````
+
+
+
 </p>
